@@ -173,7 +173,7 @@ El proyecto incluye pruebas obligatorias, que abarcan desde pruebas unitarias re
 <a name="licencia"></a>
 ### Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](https://github.com/salvaMsanchez/DragonBallApp-Android/blob/main/LICENSE.md) para más detalles.
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](https://github.com/salvaMsanchez/MarvelApp-Android/blob/main/LICENSE.md) para más detalles.
 
 ---
 
