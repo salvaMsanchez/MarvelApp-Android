@@ -11,8 +11,8 @@ class Repository @Inject constructor(
     private val remoteDataSource: RemoteDataSourceInterface,
     private val remoteToUiMapper: RemoteToUiMapper,
 ) : RepositoryInterface {
-    override suspend fun getCharacters(): List<Characters> {
-        val remoteCharacters: List<CharactersRemote> = remoteDataSource.getCharacters()
+    override suspend fun getCharacters(limit: Int, offset: Int): List<Characters> {
+        val remoteCharacters: List<CharactersRemote> = remoteDataSource.getCharacters(limit.toString(), offset.toString())
         return remoteToUiMapper.map(remoteCharacters)
     }
 }

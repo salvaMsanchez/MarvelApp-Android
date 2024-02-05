@@ -5,6 +5,6 @@ import javax.inject.Inject
 
 class RemoteDataSource @Inject constructor(private val marvelApi: MarvelApi) :
     RemoteDataSourceInterface {
-    override suspend fun getCharacters(): List<CharactersRemote> =
-        marvelApi.getCharacters().data.results
+    override suspend fun getCharacters(limit: String, offset: String): List<CharactersRemote> =
+        marvelApi.getCharacters(limit, offset).data.results
 }

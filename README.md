@@ -190,6 +190,10 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](https://g
 
 * Por si queremos hacer una lista de favoritos y que podamos eliminarlos con animación -> [LazyColumn Animations in Jetpack Compose (with Examples)](https://semicolonspace.com/jetpack-compose-lazycolumn-animations/)
 
+* Seguridad de las api keys
+	* [Using local.properties file to avoid API Keys check-in into Version Control System](https://blog.mindorks.com/using-local-properties-file-to-avoid-api-keys-check-in-into-version-control-system/)
+	* [Securing API Keys in Android projects](https://medium.com/@vontonnie/secure-api-keys-in-android-projects-f8eb4839701d)
+
 ---
 
 [Subir ⬆️](#top)
