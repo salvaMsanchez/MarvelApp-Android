@@ -1,7 +1,7 @@
 package com.example.marvelapp.data.remote
 
-import com.example.marvelapp.data.remote.response.CharactersRemote
+import com.example.marvelapp.data.remote.response.CharacterRemote
 
 interface RemoteDataSourceInterface {
-    suspend fun getCharacters(limit: String, offset: String): List<CharactersRemote>
+    suspend fun getCharacters(limit: String, offset: String): List<CharacterRemote>
 }

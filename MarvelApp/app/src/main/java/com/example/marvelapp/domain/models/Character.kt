@@ -1,6 +1,6 @@
 package com.example.marvelapp.domain.models
 
-data class Characters(
+data class Character(
     val id: Long,
     val name: String,
     val photo: String,

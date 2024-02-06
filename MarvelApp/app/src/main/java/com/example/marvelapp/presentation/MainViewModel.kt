@@ -3,12 +3,10 @@ package com.example.marvelapp.presentation
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.marvelapp.data.Repository
 import com.example.marvelapp.domain.RepositoryInterface
-import com.example.marvelapp.domain.models.Characters
+import com.example.marvelapp.domain.models.Character
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
@@ -26,7 +24,7 @@ class MainViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
-                val characters: List<Characters> = repository.getCharacters(20, 20)
+                val characters: List<Character> = repository.getCharacters(20, 20)
                 Log.d("SALVA", "$characters")
                 Log.d("SALVA", "TAMAÑO -> ${characters.size}")
             }
