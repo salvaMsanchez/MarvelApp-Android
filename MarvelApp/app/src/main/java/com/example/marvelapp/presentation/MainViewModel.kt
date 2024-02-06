@@ -8,6 +8,7 @@ import com.example.marvelapp.domain.models.Character
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -24,7 +25,7 @@ class MainViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
-                val characters: List<Character> = repository.getCharacters(20, 20)
+                val characters: List<Character> = repository.getCharactersWithCache()
                 Log.d("SALVA", "$characters")
                 Log.d("SALVA", "TAMAÑO -> ${characters.size}")
             }

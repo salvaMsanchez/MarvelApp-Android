@@ -186,13 +186,22 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](https://g
 * Animación Lottie de Carga del detalle, ya que no hará falta cargar nada en la de inicio al no haber login ni nada y estar el LaunchScreen, o por lo menos creo que eso hace en el vídeo del LaunchScreen.
 * Listado de superhéroes que cargue una página y luego cargue otra al bajar (FLOW) y que haya un CircularProgressBar abajo de la lista. -> [Easy Android ListView Pagination using Jetpack Compose](https://nabil6391.medium.com/easy-android-listview-pagination-using-jetpack-compose-267472f07929) -> Cachear en BBDD los 20 primeros e ir cargando en BBDD cuando vayamos cargando otros 20 más, ya que si vamos al detalle del héroe cogeríamos su nombre o ID y lo buscaríamos en BBDD. Luego, al salir de la aplicación, se debería eliminar de la BBDD todo lo que no sean los 20 primeros para no tener una app que tire de mucha memoria. FIJARNOS EN LA LISTA DE JUGHADORES DE LA APP DEL MISTER.
 
-- Otros recursos para la lazyColumn -> [Endless Scrolling in Android with Jetpack Compose](https://medium.com/@giorgos.patronas1/endless-scrolling-in-android-with-jetpack-compose-af1f55a03d1a) y [Implementing Infinite Scroll in Android Using Jetpack Compose](https://medium.com/@dery.fathurochman/implementing-infinite-scroll-in-android-using-jetpack-compose-373d5b758f1e)
+- Otros recursos para la lazyColumn -> [Endless Scrolling in Android with Jetpack Compose](https://medium.com/@giorgos.patronas1/endless-scrolling-in-android-with-jetpack-compose-af1f55a03d1a) y [Implementing Infinite Scroll in Android Using Jetpack Compose](https://medium.com/@dery.fathurochman/implementing-infinite-scroll-in-android-using-jetpack-compose-373d5b758f1e)
 
 * Por si queremos hacer una lista de favoritos y que podamos eliminarlos con animación -> [LazyColumn Animations in Jetpack Compose (with Examples)](https://semicolonspace.com/jetpack-compose-lazycolumn-animations/)
 
 * Seguridad de las api keys
 	* [Using local.properties file to avoid API Keys check-in into Version Control System](https://blog.mindorks.com/using-local-properties-file-to-avoid-api-keys-check-in-into-version-control-system/)
 	* [Securing API Keys in Android projects](https://medium.com/@vontonnie/secure-api-keys-in-android-projects-f8eb4839701d)
+
+	
+# APUNTES
+
+* Problema con LazyColumn y detección de scroll hacia abajo: Se enfrentaba a un problema donde el onLoadMore() se llamaba repetidamente al hacer scroll hacia abajo en un LazyColumn, pero no funcionaba correctamente al hacer scroll hacia arriba. Se resolvió implementando un LaunchedEffect que detecta cuando se llega al último elemento de la lista y llama a onLoadMore() solo una vez.
+* Optimización del rendimiento en CharacterItem: Se proporcionaron sugerencias para optimizar el rendimiento dentro de CharacterItem, como cargar las imágenes de forma asíncrona de manera eficiente, evitar la creación de nuevos objetos en cada recomposición y reducir la anidación excesiva de componibles.
+* Ajuste del tamaño de la imagen y recorte: Se solicitó que la imagen en CharacterItem ocupara toda la tarjeta y se recortara según el tamaño de la tarjeta. Se proporcionó una solución utilizando Modifier.fillMaxSize() y ContentScale.Crop en el composable Image.
+* Agregar una capa oscura sobre la imagen: Se solicitó agregar una capa más oscura pero transparente encima de la foto en CharacterItem. Se proporcionaron varias soluciones, incluyendo el uso de un Box con un fondo oscuro y ajuste de la opacidad, así como el uso de Modifier.drawWithContent para dibujar la capa directamente sobre la imagen.
+* Orden de dibujo de la capa oscura: Se quería que la capa oscura se aplicara sobre la imagen en CharacterItem. Se ajustó el orden de los elementos dentro de Modifier.drawWithContent para que la capa oscura se dibujara encima de la imagen.
 
 ---
 
