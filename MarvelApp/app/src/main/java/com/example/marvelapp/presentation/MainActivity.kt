@@ -8,12 +8,17 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
 import com.example.marvelapp.presentation.characters.CharactersScreen
 import com.example.marvelapp.presentation.characters.CharactersViewModel
+import com.example.marvelapp.presentation.navigation.MarvelAppNavigation
 import com.example.marvelapp.ui.theme.MarvelAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -36,12 +41,11 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background
                 ) {
-                    val viewState by charactersViewModel.viewState.collectAsState()
-                    CharactersScreen(
-                        charactersViewModel = charactersViewModel,
-                        state = viewState,
-                        onLoadMore = { charactersViewModel.onLoadMore() },
-                        onItemClicked = { id -> Log.d("SALVA", "Se ha clickado en una celda con id: $id") })
+                    val navController = rememberNavController()
+                    MarvelAppNavigation(
+                        navController = navController,
+                        charactersViewModel = charactersViewModel
+                    )
                 }
             }
         }
