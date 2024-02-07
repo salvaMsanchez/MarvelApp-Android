@@ -25,9 +25,7 @@ class MainViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
-                val characters: List<Character> = repository.getCharactersWithCache()
-                Log.d("SALVA", "$characters")
-                Log.d("SALVA", "TAMAÑO -> ${characters.size}")
+                repository.getCharactersWithCache()
             }
             _isReady.value = true
         }

@@ -5,6 +5,10 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -25,10 +29,11 @@ fun CharactersScreen(
         is CharactersViewState.Loaded -> {
             Column(modifier = Modifier.fillMaxSize()) {
                 FavoriteCharactersScreen(charactersViewModel)
-                CharactersLoadedScreen(state, onLoadMore, onItemClicked)
+                CharactersLoadedScreen(charactersViewModel, state, onLoadMore, onItemClicked) { id, isFavorite ->
+                    charactersViewModel.onFavoriteClicked(id, isFavorite)
+                }
             }
         }
-
         is CharactersViewState.Loading -> {
             Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                 CircularProgressIndicator(color = Color.Red)

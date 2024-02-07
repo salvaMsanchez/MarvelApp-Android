@@ -1,5 +1,6 @@
 package com.example.marvelapp.presentation.characters
 
+import android.text.BoringLayout
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -11,6 +12,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
@@ -24,21 +27,31 @@ class CharactersViewModel @Inject constructor(
     private val _viewState = MutableStateFlow<CharactersViewState>(CharactersViewState.Idle)
     val viewState: StateFlow<CharactersViewState> = _viewState.asStateFlow()
 
+    private val _characters: MutableStateFlow<List<Character>> = MutableStateFlow(emptyList())
+    val characters: StateFlow<List<Character>> = _characters.asStateFlow()
+
     private val _favoriteCharacters: MutableStateFlow<List<Character>> = MutableStateFlow(emptyList())
     val favoriteCharacters: StateFlow<List<Character>> = _favoriteCharacters.asStateFlow()
-
-    private val charactersList = mutableListOf<Character>()
 
     private val limit: Int = 20
     private var offset: Int = 0
 
     init {
+        getCharactersWithFlow()
         viewModelScope.launch {
             _viewState.value = CharactersViewState.Loading
             withContext(dispatcher) {
-                val characters = repository.getCharactersWithCache()
-                charactersList.addAll(characters)
-                _viewState.value = CharactersViewState.Loaded(characters, false)
+                repository.getCharactersWithCache()
+                _viewState.value = CharactersViewState.Loaded(false)
+            }
+        }
+    }
+
+    private fun getCharactersWithFlow() {
+        viewModelScope.launch(dispatcher) {
+            repository.getCharactersWithFlow().collect { newCharacters ->
+                _characters.update { newCharacters }
+                Log.d("SALVA", "$newCharacters")
             }
         }
     }
@@ -47,13 +60,20 @@ class CharactersViewModel @Inject constructor(
         viewModelScope.launch {
             if (!(_viewState.value as CharactersViewState.Loaded).loadingMore) {
                 offset += 20
-                _viewState.value = CharactersViewState.Loaded(charactersList, true)
+                _viewState.value = CharactersViewState.Loaded(true)
                 withContext(dispatcher) {
                     Log.d("SALVA", "LLAMADA A LA API CON LIMIT: $limit y OFFSET: $offset")
-                    val newCharacters = repository.getCharacters(limit, offset)
-                    charactersList.addAll(newCharacters)
-                    _viewState.value = CharactersViewState.Loaded(charactersList, false)
+                    repository.getCharacters(limit, offset)
+                    _viewState.value = CharactersViewState.Loaded(false)
                 }
+            }
+        }
+    }
+
+    fun onFavoriteClicked(characterId: Long, isFavorite: Boolean) {
+        viewModelScope.launch {
+            withContext(dispatcher) {
+                repository.updateLocalFavoriteStatus(characterId, isFavorite)
             }
         }
     }
