@@ -15,6 +15,9 @@ interface CharacterDAO {
     @Query("SELECT * FROM characters")
     fun getCharactersWithFlow(): Flow<List<CharacterLocal>>
 
+    @Query("SELECT * FROM characters WHERE favorite = 1")
+    fun getFavoriteCharactersWithFlow(): Flow<List<CharacterLocal>>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertCharacters(characters: List<CharacterLocal>)
 

@@ -7,6 +7,7 @@ import kotlinx.coroutines.flow.Flow
 interface LocalDataSourceInterface {
     fun getCharacters(): List<CharacterLocal>
     fun getCharactersWithFlow(): Flow<List<CharacterLocal>>
+    fun getFavoriteCharactersWithFlow(): Flow<List<CharacterLocal>>
     fun insertCharacters(localCharacters: List<CharacterLocal>)
     fun updateFavoriteStatus(characterId: Long, isFavorite: Boolean)
 }

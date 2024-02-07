@@ -49,6 +49,12 @@ class Repository @Inject constructor(
         }
     }
 
+    override suspend fun getFavoriteCharactersWithFlow(): Flow<List<Character>> {
+        return localDataSource.getFavoriteCharactersWithFlow().map { characterLocal ->
+            characterLocal.map { Character(it.id, it.name, it.photo, it.favorite) }.sortedBy { it.name }
+        }
+    }
+
     override suspend fun getCharacters(limit: Int, offset: Int) {
         val remoteCharacters: List<CharacterRemote> =
             remoteDataSource.getCharacters(limit.toString(), offset.toString())

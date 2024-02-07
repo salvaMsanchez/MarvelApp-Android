@@ -28,8 +28,11 @@ import com.example.marvelapp.presentation.characters.CharactersViewState
 import com.example.marvelapp.presentation.characters.generateCharacters
 
 @Composable
-fun FavoriteCharactersScreen(charactersViewModel: CharactersViewModel) {
+fun FavoriteCharactersScreen(
+    charactersViewModel: CharactersViewModel
+) {
     val favoriteCharacters by charactersViewModel.favoriteCharacters.collectAsState()
+
     if (favoriteCharacters.isNotEmpty()) {
         LazyRow {
             items(favoriteCharacters.size) {
@@ -44,10 +47,12 @@ fun FavoriteCharactersScreen(charactersViewModel: CharactersViewModel) {
 
 @Composable
 fun NoFavoriteCharacterItem() {
-    Box(modifier = Modifier
-        .fillMaxWidth()
-        .height(200.dp)
-        .background(Color.Gray), contentAlignment = Alignment.Center) {
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(200.dp)
+            .background(Color.Gray), contentAlignment = Alignment.Center
+    ) {
         Text("No Favorite Characters saved yet")
     }
 }

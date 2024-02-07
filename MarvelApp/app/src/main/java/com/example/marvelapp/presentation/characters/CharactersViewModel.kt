@@ -38,6 +38,7 @@ class CharactersViewModel @Inject constructor(
 
     init {
         getCharactersWithFlow()
+        getFavoriteCharactersWithFlow()
         viewModelScope.launch {
             _viewState.value = CharactersViewState.Loading
             withContext(dispatcher) {
@@ -51,7 +52,14 @@ class CharactersViewModel @Inject constructor(
         viewModelScope.launch(dispatcher) {
             repository.getCharactersWithFlow().collect { newCharacters ->
                 _characters.update { newCharacters }
-                Log.d("SALVA", "$newCharacters")
+            }
+        }
+    }
+
+    private fun getFavoriteCharactersWithFlow() {
+        viewModelScope.launch(dispatcher) {
+            repository.getFavoriteCharactersWithFlow().collect { favoriteCharacters ->
+                _favoriteCharacters.update { favoriteCharacters }
             }
         }
     }
@@ -62,7 +70,6 @@ class CharactersViewModel @Inject constructor(
                 offset += 20
                 _viewState.value = CharactersViewState.Loaded(true)
                 withContext(dispatcher) {
-                    Log.d("SALVA", "LLAMADA A LA API CON LIMIT: $limit y OFFSET: $offset")
                     repository.getCharacters(limit, offset)
                     _viewState.value = CharactersViewState.Loaded(false)
                 }

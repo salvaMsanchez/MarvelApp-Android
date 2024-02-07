@@ -10,7 +10,7 @@ class LocalDataSource @Inject constructor(
 ) : LocalDataSourceInterface {
     override fun getCharacters(): List<CharacterLocal> = dao.getCharacters()
     override fun getCharactersWithFlow(): Flow<List<CharacterLocal>> = dao.getCharactersWithFlow()
-
+    override fun getFavoriteCharactersWithFlow(): Flow<List<CharacterLocal>> = dao.getFavoriteCharactersWithFlow()
     override fun insertCharacters(localCharacters: List<CharacterLocal>) = dao.insertCharacters(localCharacters)
     override fun updateFavoriteStatus(characterId: Long, isFavorite: Boolean) {
         return dao.updateFavoriteStatus(characterId, isFavorite)
