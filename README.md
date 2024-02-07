@@ -202,10 +202,12 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](https://g
 * Ajuste del tamaño de la imagen y recorte: Se solicitó que la imagen en CharacterItem ocupara toda la tarjeta y se recortara según el tamaño de la tarjeta. Se proporcionó una solución utilizando Modifier.fillMaxSize() y ContentScale.Crop en el composable Image.
 * Agregar una capa oscura sobre la imagen: Se solicitó agregar una capa más oscura pero transparente encima de la foto en CharacterItem. Se proporcionaron varias soluciones, incluyendo el uso de un Box con un fondo oscuro y ajuste de la opacidad, así como el uso de Modifier.drawWithContent para dibujar la capa directamente sobre la imagen.
 * Orden de dibujo de la capa oscura: Se quería que la capa oscura se aplicara sobre la imagen en CharacterItem. Se ajustó el orden de los elementos dentro de Modifier.drawWithContent para que la capa oscura se dibujara encima de la imagen.
+* Ordenación de los personajes cuando se realizan cargas de más superhéroes, ya que actualmente se reflejan tal y como se insertan y ordenan en BBDD.
 
 # A MEJORAR
 
-* Ordenación de los personajes cuando se realizan cargas de más superhéroes, ya que actualmente se reflejan tal y como se insertan y ordenan en BBDD.
+* Comentarios.
+* Dividir en más componentes mis vistas.
 * Eliminar los personajes cargados durante el uso de la app una vez que el usuario ha querido salir de la aplicación. Es decir, mostrar Diálogo de Salir, el usuario acepta y, a continuación, se eliminan de BBDD todos los personajes cargados, excepto los 20 primeros.
 
 ---
