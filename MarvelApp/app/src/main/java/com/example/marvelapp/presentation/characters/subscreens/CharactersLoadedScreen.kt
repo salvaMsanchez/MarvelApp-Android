@@ -1,8 +1,6 @@
 package com.example.marvelapp.presentation.characters.subscreens
 
-import android.util.Log
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -12,7 +10,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
@@ -43,10 +40,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.constraintlayout.compose.ConstraintLayout
 import coil.compose.rememberAsyncImagePainter
 import com.example.marvelapp.domain.models.Character
 import com.example.marvelapp.presentation.characters.CharactersViewModel
@@ -171,14 +166,6 @@ fun CharacterItem(
     }
 }
 
-/*@Preview(heightDp = 175)
-@Composable
-fun CharacterItem_Preview() {
-    CharacterItem(
-        Character(1.toLong(), "ABYSS (AGE OF APOCALYPSE)", "Photo", false)
-    )
-}*/
-
 @Composable
 fun FavoriteButton(
     modifier: Modifier = Modifier,
@@ -210,9 +197,3 @@ fun FavoriteButton(
         )
     }
 }
-
-/*@Preview
-@Composable
-fun FavoriteButton_Preview() {
-    FavoriteButton()
-}*/
