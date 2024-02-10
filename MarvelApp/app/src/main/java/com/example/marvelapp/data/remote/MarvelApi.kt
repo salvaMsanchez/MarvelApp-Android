@@ -1,7 +1,9 @@
 package com.example.marvelapp.data.remote
 
 import com.example.marvelapp.data.remote.response.CharacterDataRemote
+import com.example.marvelapp.data.remote.response.ComicDataRemote
 import retrofit2.http.GET
+import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface MarvelApi {
@@ -10,4 +12,7 @@ interface MarvelApi {
         @Query("limit") limit: String,
         @Query("offset") offset: String
     ): CharacterDataRemote
+
+    @GET("v1/public/characters/{characterId}/comics")
+    suspend fun getComics(@Path("characterId") characterId: String): ComicDataRemote
 }

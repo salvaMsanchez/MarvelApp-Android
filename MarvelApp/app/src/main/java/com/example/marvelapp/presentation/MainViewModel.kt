@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.marvelapp.domain.RepositoryInterface
 import com.example.marvelapp.domain.models.Character
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -16,7 +17,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
-    private val repository: RepositoryInterface
+    private val repository: RepositoryInterface,
+    private val dispatcher: CoroutineDispatcher = Dispatchers.IO,
 ) : ViewModel() {
 
     private val _isReady = MutableStateFlow(false)
@@ -24,7 +26,7 @@ class MainViewModel @Inject constructor(
 
     init {
         viewModelScope.launch {
-            withContext(Dispatchers.IO) {
+            withContext(dispatcher) {
                 repository.getCharactersWithCache()
             }
             _isReady.value = true

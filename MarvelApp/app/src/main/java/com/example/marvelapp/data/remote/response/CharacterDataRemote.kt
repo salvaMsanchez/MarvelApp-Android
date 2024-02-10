@@ -3,10 +3,10 @@ package com.example.marvelapp.data.remote.response
 import com.squareup.moshi.Json
 
 data class CharacterDataRemote(
-    @Json(name = "data") val data: Data
+    @Json(name = "data") val data: CharacterData
 )
 
-data class Data(
+data class CharacterData(
     @Json(name = "results") val results: List<CharacterRemote>
 )
 

@@ -31,9 +31,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.marvelapp.R
+import com.example.marvelapp.presentation.characterDetail.components.ShimmerProductListItem
 
 @Composable
-fun CharacterDetailScreen(characterId: Long) {
+fun CharacterDetailScreen(
+    viewState: CharacterDetailViewState,
+    onViewAppear: () -> Unit
+) {
+    onViewAppear()
     LazyColumn(modifier = Modifier.background(Color.Black.copy(alpha = 0.85f))) {
         item {
             HeaderDetail("", "Hulk", modifier = Modifier.padding(bottom = 8.dp))
@@ -45,14 +50,37 @@ fun CharacterDetailScreen(characterId: Long) {
             )
         }
         items(2) {
-            ProductsDetail("COMICS", modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp))
-            ProductsDetail("SERIES", modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp))
+            when (viewState) {
+                is CharacterDetailViewState.Idle -> {}
+                is CharacterDetailViewState.ComicsLoading -> {
+                    ProductsDetail(
+                        "COMICS",
+                        5,
+                        viewState.loading,
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
+                    )
+                }
+
+                is CharacterDetailViewState.SeriesLoading -> {
+                    ProductsDetail(
+                        "SERIES",
+                        4,
+                        viewState.loading,
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
+                    )
+                }
+            }
         }
     }
 }
 
 @Composable
-fun ProductsDetail(sectionTitle: String, modifier: Modifier = Modifier) {
+fun ProductsDetail(
+    sectionTitle: String,
+    itemsNum: Int,
+    isLoading: Boolean,
+    modifier: Modifier = Modifier
+) {
     Column(verticalArrangement = Arrangement.spacedBy(6.dp), modifier = modifier) {
         Text(
             text = sectionTitle,
@@ -62,8 +90,15 @@ fun ProductsDetail(sectionTitle: String, modifier: Modifier = Modifier) {
             modifier = Modifier.padding(start = 8.dp)
         )
         LazyRow {
-            items(2) {
-                ProductItem(modifier = Modifier.padding(horizontal = 8.dp))
+            items(itemsNum) {
+                //ProductItem(modifier = Modifier.padding(horizontal = 8.dp))
+                ShimmerProductListItem(
+                    isLoading = isLoading,
+                    contentAfterLoading = {
+                        ProductItem()
+                    },
+                    modifier = Modifier.padding(horizontal = 8.dp)
+                )
             }
         }
     }
@@ -71,9 +106,11 @@ fun ProductsDetail(sectionTitle: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun ProductItem(modifier: Modifier = Modifier) {
-    Column(modifier = modifier
-        .height(224.dp)
-        .width(125.dp)) {
+    Column(
+        modifier = modifier
+            .height(224.dp)
+            .width(125.dp)
+    ) {
         Box(
             modifier = Modifier.height(180.dp)
         ) {
@@ -169,10 +206,4 @@ fun HeaderDetail(characterPhoto: String, characterName: String, modifier: Modifi
             )
         }
     }
-}
-
-@Preview(showSystemUi = true)
-@Composable
-fun CharacterDetailScreen_Preview() {
-    CharacterDetailScreen(1.toLong())
 }
