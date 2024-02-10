@@ -1,5 +1,6 @@
 package com.example.marvelapp.presentation.characters
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.marvelapp.domain.RepositoryInterface
@@ -65,6 +66,7 @@ class CharactersViewModel @Inject constructor(
         viewModelScope.launch {
             if (!(_viewState.value as CharactersViewState.Loaded).loadingMore) {
                 offset += 20
+                Log.d("SALVA", offset.toString())
                 _viewState.value = CharactersViewState.Loaded(true)
                 withContext(dispatcher) {
                     repository.getCharacters(limit, offset)
@@ -78,6 +80,14 @@ class CharactersViewModel @Inject constructor(
         viewModelScope.launch {
             withContext(dispatcher) {
                 repository.updateLocalFavoriteStatus(characterId, isFavorite)
+            }
+        }
+    }
+
+    fun onConfirmExit() {
+        viewModelScope.launch {
+            withContext(dispatcher) {
+                repository.deleteCharactersMinusFirstTwenty()
             }
         }
     }

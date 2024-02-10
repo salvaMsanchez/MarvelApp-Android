@@ -12,6 +12,9 @@ interface CharacterDAO {
     @Query("SELECT * FROM characters")
     fun getCharacters(): List<CharacterLocal>
 
+    @Query("SELECT * FROM characters WHERE id = :characterId")
+    fun getCharacter(characterId: Long): CharacterLocal
+
     @Query("SELECT * FROM characters")
     fun getCharactersWithFlow(): Flow<List<CharacterLocal>>
 
@@ -23,4 +26,7 @@ interface CharacterDAO {
 
     @Query("UPDATE characters SET favorite = :isFavorite WHERE id = :characterId")
     fun updateFavoriteStatus(characterId: Long, isFavorite: Boolean)
+
+    @Query("DELETE FROM characters WHERE id NOT IN (SELECT id FROM characters ORDER BY name LIMIT 20)")
+    fun deleteCharactersMinusFirstTwenty()
 }

@@ -38,10 +38,19 @@ fun MarvelAppNavigation(
         ) { backStackEntry ->
             val viewState by characterDetailViewModel.viewState.collectAsState()
             CharacterDetailScreen(
-                viewState
-            ) {
-                characterDetailViewModel.onViewAppear(backStackEntry.arguments?.getLong("characterId") ?: 0.toLong())
-            }
+                characterDetailViewModel,
+                viewState,
+                onViewAppear = {
+                    characterDetailViewModel.onViewAppear(
+                        backStackEntry.arguments?.getLong("characterId") ?: 0.toLong()
+                    )
+                },
+                onCharacterLoaded = {
+                    characterDetailViewModel.onCharacterLoaded(
+                        backStackEntry.arguments?.getLong("characterId") ?: 0.toLong()
+                    )
+                }
+            )
         }
     }
 }

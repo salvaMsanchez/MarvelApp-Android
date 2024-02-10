@@ -21,7 +21,3 @@ data class Thumbnail(
     @Json(name = "path") val path: String,
     @Json(name = "extension") val extension: String
 )
-
-//data class Extension(
-//    @Json(name = "extension") val extension: String
-//)

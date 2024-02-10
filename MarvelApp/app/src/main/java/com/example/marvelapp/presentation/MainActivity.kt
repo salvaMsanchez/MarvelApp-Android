@@ -1,22 +1,16 @@
 package com.example.marvelapp.presentation
 
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.marvelapp.presentation.characters.CharactersScreen
+import com.example.marvelapp.presentation.characterDetail.CharacterDetailViewModel
 import com.example.marvelapp.presentation.characters.CharactersViewModel
 import com.example.marvelapp.presentation.navigation.MarvelAppNavigation
 import com.example.marvelapp.ui.theme.MarvelAppTheme
@@ -27,6 +21,7 @@ class MainActivity : ComponentActivity() {
 
     private val mainViewModel: MainViewModel by viewModels()
     private val charactersViewModel: CharactersViewModel by viewModels()
+    private val characterDetailViewModel: CharacterDetailViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,7 +39,8 @@ class MainActivity : ComponentActivity() {
                     val navController = rememberNavController()
                     MarvelAppNavigation(
                         navController = navController,
-                        charactersViewModel = charactersViewModel
+                        charactersViewModel = charactersViewModel,
+                        characterDetailViewModel = characterDetailViewModel,
                     )
                 }
             }

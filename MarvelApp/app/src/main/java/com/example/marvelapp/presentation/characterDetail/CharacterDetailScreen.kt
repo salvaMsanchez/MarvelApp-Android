@@ -15,8 +15,11 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -24,48 +27,62 @@ import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import coil.compose.rememberAsyncImagePainter
 import com.example.marvelapp.R
+import com.example.marvelapp.domain.models.Product
 import com.example.marvelapp.presentation.characterDetail.components.ShimmerProductListItem
+import com.example.marvelapp.presentation.characterDetail.components.shimmerEffect
+import com.example.marvelapp.ui.theme.BackgroundColor
+import com.example.marvelapp.ui.theme.MarvelColor
 
 @Composable
 fun CharacterDetailScreen(
-    viewState: CharacterDetailViewState,
-    onViewAppear: () -> Unit
+    characterDetailViewModel: CharacterDetailViewModel,
+    state: CharacterDetailViewState,
+    onViewAppear: () -> Unit,
+    onCharacterLoaded: () -> Unit
 ) {
+    val comics by characterDetailViewModel.comics.collectAsState()
+    val series by characterDetailViewModel.series.collectAsState()
+
     onViewAppear()
-    LazyColumn(modifier = Modifier.background(Color.Black.copy(alpha = 0.85f))) {
-        item {
-            HeaderDetail("", "Hulk", modifier = Modifier.padding(bottom = 8.dp))
+
+    when(state) {
+        is CharacterDetailViewState.Idle -> {}
+        is CharacterDetailViewState.Loading -> {
+            CharacterDetailLoadingScreen()
         }
-        item {
-            DescriptionDetail(
-                "Caught in a gamma bomb explosion while trying to save the life of a teenager, Dr. Bruce Banner was transformed into the incredibly powerful creature called the Hulk. An all too often misunderstood hero, the angrier the Hulk gets, the stronger the Hulk gets.",
-                modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
-            )
-        }
-        items(2) {
-            when (viewState) {
-                is CharacterDetailViewState.Idle -> {}
-                is CharacterDetailViewState.ComicsLoading -> {
+        is CharacterDetailViewState.CharacterLoaded -> {
+            onCharacterLoaded()
+
+            LazyColumn(modifier = Modifier.background(Color.Black.copy(alpha = 0.85f))) {
+                item {
+                    HeaderDetail(state.character.name, state.character.photo, modifier = Modifier.padding(bottom = 8.dp))
+                }
+                item {
+                    DescriptionDetail(
+                        state.character.description,
+                        modifier = Modifier.padding(horizontal = 16.dp, vertical = 16.dp)
+                    )
+                }
+                item {
                     ProductsDetail(
                         "COMICS",
-                        5,
-                        viewState.loading,
+                        comics,
                         modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
                     )
                 }
-
-                is CharacterDetailViewState.SeriesLoading -> {
+                item {
                     ProductsDetail(
                         "SERIES",
-                        4,
-                        viewState.loading,
+                        series,
                         modifier = Modifier.padding(horizontal = 8.dp, vertical = 8.dp)
                     )
                 }
@@ -75,10 +92,24 @@ fun CharacterDetailScreen(
 }
 
 @Composable
+fun CharacterDetailLoadingScreen() {
+    Box(modifier = Modifier
+        .fillMaxSize()
+        .background(BackgroundColor), contentAlignment = Alignment.Center) {
+        CircularProgressIndicator(color = MarvelColor, modifier = Modifier)
+    }
+}
+
+@Preview(showSystemUi = true)
+@Composable
+fun CharacterDetailLoadingScreen_Preview() {
+    CharacterDetailLoadingScreen()
+}
+
+@Composable
 fun ProductsDetail(
     sectionTitle: String,
-    itemsNum: Int,
-    isLoading: Boolean,
+    productsList: List<Product>,
     modifier: Modifier = Modifier
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(6.dp), modifier = modifier) {
@@ -90,12 +121,11 @@ fun ProductsDetail(
             modifier = Modifier.padding(start = 8.dp)
         )
         LazyRow {
-            items(itemsNum) {
-                //ProductItem(modifier = Modifier.padding(horizontal = 8.dp))
+            items(if(productsList.isNotEmpty()) productsList.size else 3) {
                 ShimmerProductListItem(
-                    isLoading = isLoading,
+                    isLoading = productsList.isEmpty(),
                     contentAfterLoading = {
-                        ProductItem()
+                        ProductItem(productsList[it], modifier = Modifier.padding(horizontal = 8.dp))
                     },
                     modifier = Modifier.padding(horizontal = 8.dp)
                 )
@@ -105,17 +135,19 @@ fun ProductsDetail(
 }
 
 @Composable
-fun ProductItem(modifier: Modifier = Modifier) {
+fun ProductItem(product: Product, modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
-            .height(224.dp)
+            .height(232.dp)
             .width(125.dp)
     ) {
         Box(
-            modifier = Modifier.height(180.dp)
+            modifier = Modifier
+                .height(180.dp)
+                .shimmerEffect()
         ) {
             Image(
-                painter = painterResource(id = R.drawable.marvel_comic),
+                painter = rememberAsyncImagePainter(product.photo),
                 contentDescription = "Favorite Character Photo",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
@@ -123,13 +155,14 @@ fun ProductItem(modifier: Modifier = Modifier) {
             )
         }
         Text(
-            text = "Infinity Countdown (2018) #5",
+            text = product.title,
             fontSize = 13.sp,
             textAlign = TextAlign.Center,
             fontWeight = FontWeight.SemiBold,
             color = Color.White,
             maxLines = 2,
             overflow = TextOverflow.Ellipsis,
+            style = TextStyle(lineHeight = 15.sp),
             modifier = Modifier
                 .fillMaxSize()
                 .padding(4.dp)
@@ -139,7 +172,7 @@ fun ProductItem(modifier: Modifier = Modifier) {
 
 @Composable
 fun DescriptionDetail(characterDescription: String, modifier: Modifier = Modifier) {
-    Column(verticalArrangement = Arrangement.spacedBy(2.dp), modifier = modifier) {
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp), modifier = modifier) {
         Text(
             text = "DESCRIPTION",
             fontSize = 15.sp,
@@ -156,7 +189,7 @@ fun DescriptionDetail(characterDescription: String, modifier: Modifier = Modifie
 }
 
 @Composable
-fun HeaderDetail(characterPhoto: String, characterName: String, modifier: Modifier = Modifier) {
+fun HeaderDetail(characterName: String, characterPhoto: String, modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .height(300.dp)
@@ -184,7 +217,7 @@ fun HeaderDetail(characterPhoto: String, characterName: String, modifier: Modifi
             verticalArrangement = Arrangement.Center
         ) {
             Image(
-                painter = painterResource(id = R.drawable.marvel_comic),
+                painter = rememberAsyncImagePainter(characterPhoto),
                 contentDescription = "Character Photo",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
