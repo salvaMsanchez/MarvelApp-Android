@@ -16,17 +16,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.filled.FavoriteBorder
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.ButtonColors
-import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Card
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ElevatedCard
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconToggleButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -43,7 +34,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -59,7 +49,7 @@ import com.example.marvelapp.domain.models.Character
 import com.example.marvelapp.presentation.characterDetail.components.shimmerEffect
 import com.example.marvelapp.presentation.characters.CharactersViewModel
 import com.example.marvelapp.presentation.characters.CharactersViewState
-import com.example.marvelapp.ui.theme.BackgroundColor
+import com.example.marvelapp.presentation.characters.components.FavoriteButton
 import com.example.marvelapp.ui.theme.LogOutDialogColor
 
 @Composable
@@ -229,53 +219,14 @@ fun CharacterItem(
                         .weight(1f),
                     contentAlignment = Alignment.CenterEnd
                 ) {
-                    Surface(
-                        shape = CircleShape,
-                        modifier = Modifier
-                            .size(45.dp),
-                        color = Color(0x77000000)
+                    FavoriteButton(
+                        modifier = Modifier.padding(8.dp),
+                        characterFavoriteStatus = character.favorite
                     ) {
-                        FavoriteButton(
-                            modifier = Modifier.padding(8.dp),
-                            characterFavoriteStatus = character.favorite
-                        ) {
-                            onFavoriteCheckedChange(character.id, it)
-                        }
+                        onFavoriteCheckedChange(character.id, it)
                     }
                 }
             }
         }
-    }
-}
-
-@Composable
-fun FavoriteButton(
-    modifier: Modifier = Modifier,
-    color: Color = Color(0xFFFFFFFF),
-    characterFavoriteStatus: Boolean,
-    onCheckedChange: (Boolean) -> Unit
-) {
-    var isFavorite by remember { mutableStateOf(characterFavoriteStatus) }
-
-    IconToggleButton(
-        checked = isFavorite,
-        onCheckedChange = {
-            isFavorite = !isFavorite
-            onCheckedChange(it)
-        }
-    ) {
-        Icon(
-            tint = color,
-            modifier = modifier.graphicsLayer {
-                scaleX = 1.5f
-                scaleY = 1.5f
-            },
-            imageVector = if (isFavorite) {
-                Icons.Filled.Favorite
-            } else {
-                Icons.Default.FavoriteBorder
-            },
-            contentDescription = "Favorite button"
-        )
     }
 }
