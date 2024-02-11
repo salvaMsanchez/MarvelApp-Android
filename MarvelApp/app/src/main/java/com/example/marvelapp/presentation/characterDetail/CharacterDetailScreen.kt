@@ -112,7 +112,7 @@ fun ProductsDetail(
     productsList: List<Product>,
     modifier: Modifier = Modifier
 ) {
-    Column(verticalArrangement = Arrangement.spacedBy(6.dp), modifier = modifier) {
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = modifier) {
         Text(
             text = sectionTitle,
             fontSize = 15.sp,
@@ -179,12 +179,21 @@ fun DescriptionDetail(characterDescription: String, modifier: Modifier = Modifie
             fontWeight = FontWeight.SemiBold,
             color = Color.Gray
         )
-        Text(
-            text = characterDescription,
-            fontSize = 14.sp,
-            fontWeight = FontWeight.SemiBold,
-            color = Color.White
-        )
+        if (characterDescription.isNotEmpty()) {
+            Text(
+                text = characterDescription,
+                fontSize = 14.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = Color.White
+            )
+        } else {
+            Text(
+                text = "No description.",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = Color.White
+            )
+        }
     }
 }
 
@@ -221,13 +230,13 @@ fun HeaderDetail(characterName: String, characterPhoto: String, modifier: Modifi
                 contentDescription = "Character Photo",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
-                    .size(160.dp)
+                    .size(180.dp)
                     .clip(CircleShape)
                     .align(Alignment.CenterHorizontally)
             )
             Text(
                 text = characterName,
-                fontSize = 20.sp,
+                fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center,
                 color = Color.White,

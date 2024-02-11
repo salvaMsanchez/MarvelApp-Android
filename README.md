@@ -209,6 +209,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](https://g
 * Comentarios.
 * Dividir en más componentes mis vistas.
 * Eliminar los personajes cargados durante el uso de la app una vez que el usuario ha querido salir de la aplicación. Es decir, mostrar Diálogo de Salir, el usuario acepta y, a continuación, se eliminan de BBDD todos los personajes cargados, excepto los 20 primeros.
+* Investigar sobre Theming en Jetpack Compose -> https://m3.material.io/theme-builder#/custom -> muy interesante
 
 ---
 

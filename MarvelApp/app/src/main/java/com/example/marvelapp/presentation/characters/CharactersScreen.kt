@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -36,9 +37,10 @@ fun CharactersScreen(
                 charactersViewModel.onFavoriteClicked(id, isFavorite)
             }
         }
-
         is CharactersViewState.Loading -> {
-            Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+            Box(modifier = Modifier
+                .fillMaxSize()
+                .background(BackgroundColor), contentAlignment = Alignment.Center) {
                 CircularProgressIndicator(color = MarvelColor)
             }
         }
