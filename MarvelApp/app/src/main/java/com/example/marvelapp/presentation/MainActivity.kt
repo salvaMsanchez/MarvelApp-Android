@@ -18,11 +18,12 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-
+    // VIEW MODELS
     private val mainViewModel: MainViewModel by viewModels()
     private val charactersViewModel: CharactersViewModel by viewModels()
     private val characterDetailViewModel: CharacterDetailViewModel by viewModels()
 
+    // LIFECYCLE
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         installSplashScreen().apply {

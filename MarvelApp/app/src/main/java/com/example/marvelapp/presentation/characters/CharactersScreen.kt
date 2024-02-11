@@ -1,18 +1,13 @@
 package com.example.marvelapp.presentation.characters
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import com.example.marvelapp.presentation.characters.subscreens.CharactersLoadedScreen
+import com.example.marvelapp.presentation.characters.subscreens.CharactersLoadingScreen
 import com.example.marvelapp.presentation.characters.subscreens.FavoriteCharactersScreen
 import com.example.marvelapp.ui.theme.BackgroundColor
-import com.example.marvelapp.ui.theme.MarvelColor
 
 @Composable
 fun CharactersScreen(
@@ -21,9 +16,11 @@ fun CharactersScreen(
     onLoadMore: () -> Unit,
     onItemClicked: (Long) -> Unit
 ) {
+    // SCREEN MANAGEMENT BY STATUS
     when (state) {
         is CharactersViewState.Idle -> {}
         is CharactersViewState.Loaded -> {
+            // LOADED SCREEN
             CharactersLoadedScreen(
                 charactersViewModel,
                 state,
@@ -38,11 +35,8 @@ fun CharactersScreen(
             }
         }
         is CharactersViewState.Loading -> {
-            Box(modifier = Modifier
-                .fillMaxSize()
-                .background(BackgroundColor), contentAlignment = Alignment.Center) {
-                CircularProgressIndicator(color = MarvelColor)
-            }
+            // LOADING SCREEN
+            CharactersLoadingScreen()
         }
     }
 }

@@ -21,6 +21,7 @@ class CharacterDetailViewModel @Inject constructor(
     private val repository: RepositoryInterface,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO,
 ) : ViewModel() {
+    // PROPERTIES
     private val _viewState =
         MutableStateFlow<CharacterDetailViewState>(CharacterDetailViewState.Idle)
     val viewState: StateFlow<CharacterDetailViewState> = _viewState.asStateFlow()
@@ -31,6 +32,7 @@ class CharacterDetailViewModel @Inject constructor(
     private val _series: MutableStateFlow<List<Product>> = MutableStateFlow(emptyList())
     val series: StateFlow<List<Product>> = _series.asStateFlow()
 
+    // FUNCTIONS
     fun onViewAppear(characterId: Long) {
         viewModelScope.launch {
             withContext(dispatcher) {
@@ -52,7 +54,8 @@ class CharacterDetailViewModel @Inject constructor(
         }
     }
 
-    private suspend fun getCharacter(characterId: Long): CharacterDetail = repository.getCharacter(characterId)
+    private suspend fun getCharacter(characterId: Long): CharacterDetail =
+        repository.getCharacter(characterId)
 
     private suspend fun getComics(characterId: Long) {
         _comics.value = repository.getComics(characterId)

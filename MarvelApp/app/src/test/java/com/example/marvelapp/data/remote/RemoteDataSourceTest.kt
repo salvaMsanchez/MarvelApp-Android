@@ -25,9 +25,9 @@ class RemoteDataSourceTest: BaseNetworkTest() {
     @Test
     fun `WHEN getComics THEN success and return comics list`() = runTest {
         remoteDataSource = RemoteDataSource(api)
-        val charactersId: Long = 1009351
+        val characterId: Long = 1009351
 
-        val actual = remoteDataSource.getComics(charactersId)
+        val actual = remoteDataSource.getComics(characterId)
 
         Truth.assertThat(actual).hasSize(20)
         Truth.assertThat(actual[0].title).isEqualTo("Incredible Hulks (2010) #604 (DJURDJEVIC 70TH ANNIVERSARY VARIANT)")
@@ -36,9 +36,9 @@ class RemoteDataSourceTest: BaseNetworkTest() {
     @Test
     fun `WHEN getSeries THEN success and return series list`() = runTest {
         remoteDataSource = RemoteDataSource(api)
-        val charactersId: Long = 1009351
+        val characterId: Long = 1009351
 
-        val actual = remoteDataSource.getSeries(charactersId)
+        val actual = remoteDataSource.getSeries(characterId)
 
         Truth.assertThat(actual).hasSize(20)
         Truth.assertThat(actual[0].title).isEqualTo("5 Ronin (2011)")

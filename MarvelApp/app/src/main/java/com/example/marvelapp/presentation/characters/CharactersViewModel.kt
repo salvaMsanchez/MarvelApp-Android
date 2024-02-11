@@ -1,6 +1,5 @@
 package com.example.marvelapp.presentation.characters
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.marvelapp.domain.RepositoryInterface
@@ -21,7 +20,7 @@ class CharactersViewModel @Inject constructor(
     private val repository: RepositoryInterface,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO,
 ) : ViewModel() {
-
+    // PROPERTIES
     private val _viewState = MutableStateFlow<CharactersViewState>(CharactersViewState.Idle)
     val viewState: StateFlow<CharactersViewState> = _viewState.asStateFlow()
 
@@ -34,9 +33,9 @@ class CharactersViewModel @Inject constructor(
     private val limit: Int = 20
     private var offset: Int = 0
 
+    // INIT
     init {
-        getCharactersWithFlow()
-        getFavoriteCharactersWithFlow()
+        initFlow()
         viewModelScope.launch {
             _viewState.value = CharactersViewState.Loading
             withContext(dispatcher) {
@@ -44,6 +43,12 @@ class CharactersViewModel @Inject constructor(
                 _viewState.value = CharactersViewState.Loaded(false)
             }
         }
+    }
+
+    // FUNCTIONS
+    private fun initFlow() {
+        getCharactersWithFlow()
+        getFavoriteCharactersWithFlow()
     }
 
     private fun getCharactersWithFlow() {
@@ -66,7 +71,6 @@ class CharactersViewModel @Inject constructor(
         viewModelScope.launch {
             if (!(_viewState.value as CharactersViewState.Loaded).loadingMore) {
                 offset += 20
-                Log.d("SALVA", offset.toString())
                 _viewState.value = CharactersViewState.Loaded(true)
                 withContext(dispatcher) {
                     repository.getCharacters(limit, offset)
