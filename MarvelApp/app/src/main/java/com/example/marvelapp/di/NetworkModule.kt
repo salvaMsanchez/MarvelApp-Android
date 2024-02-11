@@ -48,6 +48,6 @@ class NetworkModule {
     }
 
     @Provides
-    fun providesArtInstituteChicagoApi(retrofit: Retrofit): MarvelApi =
+    fun providesMarvelApi(retrofit: Retrofit): MarvelApi =
         retrofit.create(MarvelApi::class.java)
 }

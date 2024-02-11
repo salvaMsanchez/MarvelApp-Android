@@ -1,0 +1,3086 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "© 2024 MARVEL",
+    "attributionText": "Data provided by Marvel. © 2024 MARVEL",
+    "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2024 MARVEL</a>",
+    "etag": "a9a1199f23684cb928b021842492c2a6268e6929",
+    "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1789,
+    "count": 20,
+    "results": [
+    {
+        "id": 27649,
+        "digitalId": 0,
+        "title": "Incredible Hulks (2010) #604 (DJURDJEVIC 70TH ANNIVERSARY VARIANT)",
+        "issueNumber": 604,
+        "variantDescription": "DJURDJEVIC 70TH ANNIVERSARY VARIANT",
+        "description": "",
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "5960606637-60421",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [
+        {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "After picking fights with the Juggernaut, Norman Osborn, and the Wolverine clan, the most insane father and son team in the Marvel Universe might actually be bonding.  But everything's about to blow wide open for Bruce Banner and his big, green, barbarian son Skaar when one of the Hulk's greatest enemies brings back the most important villainess Bruce Banner's ever faced.  Who is the Harpy?  And whose side will Banner take when she and Skaar meet sword to claw in a gamma-powered deathmatch?  Stone might bleed, feathers might fly, and hearts might break in the highest stakes battle yet for Banner and Son! Plus, The Savage SHE-HULK continues her quest to find\r\nJennifer Walters in a back-up by Fred Van Lente and\r\nMichael Ryan!\r\nRated A ...$3.99"
+        }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/27649",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/27649/incredible_hulks_2010_604_djurdjevic_70th_anniversary_variant/djurdjevic_70th_anniversary_variant?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/8842",
+        "name": "Incredible Hulks (2010 - 2011)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/27648",
+            "name": "Incredible Hulks (2010) #604"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2029-12-31T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2009-10-29T00:00:00-0400"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/d0/4badb223f33c9",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/d0/4badb223f33c9",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 5,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/27649/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10288",
+            "name": "Marko Djurdjevic",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1082",
+            "name": "Ariel Olivetti",
+            "role": "penciller"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/434",
+            "name": "Michael Ryan",
+            "role": "penciller"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/536",
+            "name": "Greg Pak",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7894",
+            "name": "Fred Van Lente",
+            "role": "writer"
+        }
+        ],
+        "returned": 5
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/27649/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/27649/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/60567",
+            "name": "Cover #60567",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/60568",
+            "name": "Interior #60568",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/27649/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 183,
+        "digitalId": 0,
+        "title": "Startling Stories: The Incorrigible Hulk (2004) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "",
+        "modified": "-0001-11-30T00:00:00-0500",
+        "isbn": "",
+        "upc": "5960605429-00811",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 0,
+        "textObjects": [
+        {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "For Doctor Bruce Banner life is anything but normal. But what happens when two women get between him and his alter ego, the Incorrigible Hulk? Hulk confused! \r\nIndy superstar Peter Bagge (THE MEGALOMANIACAL SPIDER-MAN) takes a satirical jab at the Hulk mythos with a tale of dames, debauchery and destruction.\r\n32 PGS./MARVEL PSR...$2.99"
+        }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/183",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/183/startling_stories_the_incorrigible_hulk_2004_1?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/565",
+        "name": "Startling Stories: The Incorrigible Hulk (2004)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2029-12-31T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "-0001-11-30T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 2.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+        "extension": "jpg"
+    },
+        "images": [],
+        "creators": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/183/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/6291",
+            "name": "Peter Bagge",
+            "role": "penciller (cover)"
+        }
+        ],
+        "returned": 1
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/183/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/183/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/1891",
+            "name": "Cover #1891",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/1892",
+            "name": "Interior #1892",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/183/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 108992,
+        "digitalId": 0,
+        "title": "Incredible Hulk (2023) #10",
+        "issueNumber": 10,
+        "variantDescription": "",
+        "description": "THE GHOST DETECTIVE TAKES HULK ON A MIND-BENDING ADVENTURE THROUGH THE PAST! Frozen Charlotte is the newest monster set on delivering Hulk to Eldest (and sowing macabre and murder along the way). But Frozen Charlotte emerged once before, and to stop her, Hulk must first understand her past… So the Ghost Detective takes Hulk on a noir hunt for a serial killer set in 1850s New Orleans!",
+        "modified": "2024-01-18T13:28:57-0500",
+        "isbn": "",
+        "upc": "75960620663601011",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/108992",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/108992/incredible_hulk_2023_10?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/37422",
+        "name": "Incredible Hulk (2023 - Present)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2024-03-27T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2024-02-26T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/00/65846f0317f38",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/00/65846f0317f38",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108992/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14561",
+            "name": "Daniel Earls",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13750",
+            "name": "Phillip Kennedy Johnson",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4989",
+            "name": "Nic Klein",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+            "name": "Wilson Moss",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+            "name": "Matthew Wilson",
+            "role": "colorist"
+        }
+        ],
+        "returned": 6
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108992/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108992/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239104",
+            "name": "cover from Hulk (2023) #10",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239105",
+            "name": "story from Hulk (2023) #10",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108992/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 108991,
+        "digitalId": 0,
+        "title": "Incredible Hulk (2023) #9",
+        "issueNumber": 9,
+        "variantDescription": "",
+        "description": "HULK VERSUS THE ANGEL OF DEATH - FROZEN CHARLOTTE! Phillip Kennedy Johnson's latest spine-chilling tale brings Hulk into a supernatural town haunted by a serial killer…but she is no mere mortal killer, and Hulk will need the help of a supernatural detective in order to track her down!",
+        "modified": "2024-01-09T10:37:28-0500",
+        "isbn": "",
+        "upc": "75960620663600911",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/108991",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/108991/incredible_hulk_2023_9?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/37422",
+        "name": "Incredible Hulk (2023 - Present)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2024-02-21T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2024-01-22T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/a0/6553e05fe9cb3",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/a0/6553e05fe9cb3",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108991/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14561",
+            "name": "Daniel Earls",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13750",
+            "name": "Phillip Kennedy Johnson",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4989",
+            "name": "Nic Klein",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+            "name": "Wilson Moss",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+            "name": "Matthew Wilson",
+            "role": "colorist"
+        }
+        ],
+        "returned": 6
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108991/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108991/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239102",
+            "name": "cover from Hulk (2023) #9",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239103",
+            "name": "story from Hulk (2023) #9",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108991/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 108990,
+        "digitalId": 64512,
+        "title": "Incredible Hulk (2023) #8",
+        "issueNumber": 8,
+        "variantDescription": "",
+        "description": "THE EPIC CONCLUSION OF HULK'S THROWDOWN WITH THE WWII GHOST RIDER AND THE WAR DEVILS! The Personification of Rage and the Spirit of Vengeance have their own vengeful spirit to conquer! When the Hulk and the undead Ghost Rider of the past finally come face-to-face with the monstrosity controlling the war devils, a bone-crushing brawl follows!",
+        "modified": "2024-01-09T10:10:41-0500",
+        "isbn": "",
+        "upc": "75960620663600811",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/108990",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/108990/incredible_hulk_2023_8?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Incredible-Hulk-8/digital-comic/64512?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=64512&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/37422",
+        "name": "Incredible Hulk (2023 - Present)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/114174",
+            "name": "Incredible Hulk (2023) #8 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/114175",
+            "name": "Incredible Hulk (2023) #8 (Variant)"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2024-01-31T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-12-18T00:00:00-0500"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2024-01-18T00:00:00-0500"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2024-01-18T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/c0/65b2c8dd7f2c7",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/c0/65b2c8dd7f2c7",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 5,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108990/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13750",
+            "name": "Phillip Kennedy Johnson",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4989",
+            "name": "Nic Klein",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+            "name": "Wilson Moss",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+            "name": "Matthew Wilson",
+            "role": "colorist"
+        }
+        ],
+        "returned": 5
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108990/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108990/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239100",
+            "name": "cover from Hulk (2023) #8",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239101",
+            "name": "story from Hulk (2023) #8",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108990/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 106965,
+        "digitalId": 64493,
+        "title": "Blade (2023) #7",
+        "issueNumber": 7,
+        "variantDescription": "",
+        "description": "BLADE TEAMS UP WITH THE HULK TO TAME THE ANGER WITHIN! In preparation to face the Adana once more, Blade must confront the monster he is afraid he is…and who knows better what it’s like to live with a monstrous version of yourself than Bruce Banner?",
+        "modified": "2023-12-28T14:51:13-0500",
+        "isbn": "",
+        "upc": "75960620585100711",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/106965",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/106965/blade_2023_7?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Blade-7/digital-comic/64493?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=64493&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/36880",
+        "name": "Blade (2023 - Present)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/114132",
+            "name": "Blade (2023) #7 (Variant)"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2024-01-10T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-11-27T00:00:00-0500"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2024-01-04T00:00:00-0500"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2024-01-04T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/03/6596e1338a215",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/03/6596e1338a215",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 7,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/106965/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9998",
+            "name": "Elena Casagrande",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14478",
+            "name": "K.J. Diaz",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13250",
+            "name": "Romulo Fajardo Jr.",
+            "role": "colorist (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13017",
+            "name": "Bryan Edward Hill",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+            "name": "Wilson Moss",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14536",
+            "name": "Valentina Pinti",
+            "role": "inker"
+        }
+        ],
+        "returned": 7
+    },
+        "characters": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/106965/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009191",
+            "name": "Blade"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 2
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/106965/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/235042",
+            "name": "cover from Blade (2023) #7",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/235043",
+            "name": "story from Blade (2023) #7",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/106965/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 113208,
+        "digitalId": 64550,
+        "title": "Thanos (2023) #2",
+        "issueNumber": 2,
+        "variantDescription": "",
+        "description": "THE ILLUMINATI’S  SECRET WEAPON: HULK! The new Illuminati move on Thanos to prevent him from destroying the Earth as part of his quest to reclaim his beloved Death, which means it’s time to bring in the biggest gun they’ve got: THE INCREDIBLE HULK!",
+        "modified": "2023-12-27T16:19:04-0500",
+        "isbn": "",
+        "upc": "75960620825800211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/113208",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/113208/thanos_2023_2?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Thanos-2/digital-comic/64550?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=64550&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/38864",
+        "name": "Thanos (2023 - Present)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/114254",
+            "name": "Thanos (2023) #2 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/114255",
+            "name": "Thanos (2023) #2 (Variant)"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2024-01-03T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-11-20T00:00:00-0500"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-12-08T00:00:00-0500"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-12-15T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/6596e1385c3af",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/6596e1385c3af",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 7,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/113208/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13861",
+            "name": "Christopher Cantwell",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11579",
+            "name": "Sunny Gho",
+            "role": "colorist (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+            "name": "Wilson Moss",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12488",
+            "name": "Luca Pizzari",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13008",
+            "name": "Ruth Redmond",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/758",
+            "name": "Leinil Francis Yu",
+            "role": "penciler (cover)"
+        }
+        ],
+        "returned": 7
+    },
+        "characters": {
+        "available": 3,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/113208/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010758",
+            "name": "Illuminati"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009652",
+            "name": "Thanos"
+        }
+        ],
+        "returned": 3
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/113208/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/247629",
+            "name": "cover from Thanos (2023) #2",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/247630",
+            "name": "story from Thanos (2023) #2",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/113208/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 113582,
+        "digitalId": 64316,
+        "title": "Giant-Size Super-Stars 1 Facsimile Edition (2023) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "The Thing and the Hulk have one of the most powerhouse rivalries in the entire Marvel Universe - and in 1974, it spilled out of the pages of both of their own books into a double-length slobberknocker! And like all the best bouts, this one takes place in the ring at Madison Square Garden - with the Fantastic Four watching on! In the green corner, it's Bruce Banner's incredible alter ego! In the orange corner, it's bashful Benjamin J. Grimm! But there's a twist to this fight that you won't believe - and the formidable warrior Thundra is on hand to tag in! Will it be Clobberin' Time for the Hulk? Or will the ever-lovin' Thing get smashed? Find out in one of the all-time great Marvel comic books, boldly re-presented in its original form, ads and all! Reprinting GIANT-SIZE SUPER-STARS #1.",
+        "modified": "2023-12-27T12:46:00-0500",
+        "isbn": "",
+        "upc": "75960620851700111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 48,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/113582",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/113582/giant-size_super-stars_1_facsimile_edition_2023_1?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/GIANT-SIZE-SUPER-STARS-1-FACSIMILE-EDITION-1/digital-comic/64316?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=64316&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/38985",
+        "name": "Giant-Size Super-Stars 1 Facsimile Edition (2023 - Present)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-12-27T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-11-20T00:00:00-0500"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-12-08T00:00:00-0500"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-12-08T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 6.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/00/6596e1ba8ffc5",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/00/6596e1ba8ffc5",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/113582/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+            "name": "Jeff Youngquist",
+            "role": "editor"
+        }
+        ],
+        "returned": 1
+    },
+        "characters": {
+        "available": 3,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/113582/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009299",
+            "name": "Fantastic Four"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009662",
+            "name": "Thing"
+        }
+        ],
+        "returned": 3
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/113582/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/248377",
+            "name": "cover from Giant-Size Super-Stars 1 Facsimile Edition (2023) #1",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/248378",
+            "name": "story from Giant-Size Super-Stars 1 Facsimile Edition (2023) #1",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/113582/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 112224,
+        "digitalId": 64333,
+        "title": "Sensational She-Hulk (2023) #3",
+        "issueNumber": 3,
+        "variantDescription": "",
+        "description": "SHE-HULK & HULK face off against one of She-Hulk's most dangerous villains! But is Hulk's scary new incarnation the best teammate to have?",
+        "modified": "2023-12-27T13:00:41-0500",
+        "isbn": "",
+        "upc": "75960620782400311",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/112224",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/112224/sensational_she-hulk_2023_3?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Sensational-She-Hulk-3/digital-comic/64333?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=64333&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/38658",
+        "name": "Sensational She-Hulk (2023 - 2024)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/113411",
+            "name": "Sensational She-Hulk (2023) #3 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/113412",
+            "name": "Sensational She-Hulk (2023) #3 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/113413",
+            "name": "Sensational She-Hulk (2023) #3 (Variant)"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-12-27T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-11-20T00:00:00-0500"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-12-08T00:00:00-0500"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-12-14T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/30/6596e1a1b51c5",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/30/6596e1a1b51c5",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 5,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/112224/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13069",
+            "name": "Jen Bartel",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+            "name": "Vc Joe Caramagna",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13559",
+            "name": "Andres Genolet",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+            "name": "Nick Lowe",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13154",
+            "name": "Rainbow Rowell",
+            "role": "writer"
+        }
+        ],
+        "returned": 5
+    },
+        "characters": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/112224/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009583",
+            "name": "She-Hulk (Jennifer Walters)"
+        }
+        ],
+        "returned": 2
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/112224/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/245621",
+            "name": "cover from She-Hulk (2023) #3",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/245622",
+            "name": "story from She-Hulk (2023) #3",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/112224/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 108989,
+        "digitalId": 64320,
+        "title": "Incredible Hulk (2023) #7",
+        "issueNumber": 7,
+        "variantDescription": "",
+        "description": "HULK VERSUS THE WAR DEVILS! The Hulk and the undead Ghost Rider make amends, but Ghost Rider smells an evil in the air - and it's been terrorizing a small community. With Bruce's teenage sidekick, Charlie, determined to prove herself as a hero, Hulk must face them down before she gets herself into more trouble than she bargained for!",
+        "modified": "2023-12-05T12:21:50-0500",
+        "isbn": "",
+        "upc": "75960620663600711",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/108989",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/108989/incredible_hulk_2023_7?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Incredible-Hulk-7/digital-comic/64320?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=64320&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/37422",
+        "name": "Incredible Hulk (2023 - Present)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/112760",
+            "name": "Incredible Hulk (2023) #7 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/113361",
+            "name": "Incredible Hulk (2023) #7 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/113362",
+            "name": "Incredible Hulk (2023) #7 (Variant)"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-12-20T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-11-13T00:00:00-0500"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-12-07T00:00:00-0500"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-12-07T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/a0/6596e20cbfd6c",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/a0/6596e20cbfd6c",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 5,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108989/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13750",
+            "name": "Phillip Kennedy Johnson",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4989",
+            "name": "Nic Klein",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+            "name": "Wilson Moss",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+            "name": "Matthew Wilson",
+            "role": "colorist"
+        }
+        ],
+        "returned": 5
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108989/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108989/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239098",
+            "name": "cover from Hulk (2023) #7",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239099",
+            "name": "story from Hulk (2023) #7",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108989/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 112223,
+        "digitalId": 64117,
+        "title": "Sensational She-Hulk (2023) #2",
+        "issueNumber": 2,
+        "variantDescription": "",
+        "description": "INCREDIBLE AND SENSATIONAL! The Incredible Hulk comes for his cousin, and it's not a social call! Both Hulk books collide! What villain is brave enough to bait the two strongest heroes (one with way better hair) of the Marvel Universe?! PLUS: In honor of Native/Indigenous Heritage Month, the Best Friend of the Marvel Universe and She-Hulk's ex-boyfriend WYATT WINGFOOT makes his triumphant return in a bonus story!",
+        "modified": "2023-11-08T10:25:03-0500",
+        "isbn": "",
+        "upc": "75960620782400211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/112223",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/112223/sensational_she-hulk_2023_2?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Sensational-She-Hulk-2/digital-comic/64117?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=64117&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/38658",
+        "name": "Sensational She-Hulk (2023 - 2024)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/112863",
+            "name": "Sensational She-Hulk (2023) #2 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/112864",
+            "name": "Sensational She-Hulk (2023) #2 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/112865",
+            "name": "Sensational She-Hulk (2023) #2 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/112866",
+            "name": "Sensational She-Hulk (2023) #2 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/113103",
+            "name": "Sensational She-Hulk (2023) #2 (Variant)"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-11-22T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-10-23T00:00:00-0400"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-11-08T00:00:00-0500"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-11-08T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 4.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/10/654bb010699ac",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/10/654bb010699ac",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 9,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/112223/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13069",
+            "name": "Jen Bartel",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+            "name": "Vc Joe Caramagna",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13946",
+            "name": "DEE CUNNIFFE",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14134",
+            "name": "David Cutler",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13559",
+            "name": "Andres Genolet",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+            "name": "Nick Lowe",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13154",
+            "name": "Rainbow Rowell",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14345",
+            "name": "Bobby Wilson",
+            "role": "writer"
+        }
+        ],
+        "returned": 9
+    },
+        "characters": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/112223/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009583",
+            "name": "She-Hulk (Jennifer Walters)"
+        }
+        ],
+        "returned": 2
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/112223/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/245619",
+            "name": "cover from She-Hulk (2023) #2",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/245620",
+            "name": "story from She-Hulk (2023) #2",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/112223/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 108988,
+        "digitalId": 64099,
+        "title": "Incredible Hulk (2023) #6",
+        "issueNumber": 6,
+        "variantDescription": "",
+        "description": "ATTACK OF THE ZOMBIE GHOST RIDER! Charlie reminds Bruce that he's more than a man on the run - he's an Avenger, a hero. And heroes help people. When their travels lead them to a Texas town under attack by dreaded monstrosities known as war devils, it's time for the Hulk to step in… …but he rouses an undead Spirit of Vengeance from his eternal slumber, summoning a 100-year-old Ghost Rider to ride down the Hulk!",
+        "modified": "2023-11-08T10:16:32-0500",
+        "isbn": "",
+        "upc": "75960620663600611",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/108988",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/108988/incredible_hulk_2023_6?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Incredible-Hulk-6/digital-comic/64099?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=64099&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/37422",
+        "name": "Incredible Hulk (2023 - Present)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/112757",
+            "name": "Incredible Hulk (2023) #6 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/112758",
+            "name": "Incredible Hulk (2023) #6 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/112759",
+            "name": "Incredible Hulk (2023) #6 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/113624",
+            "name": "Incredible Hulk (2023) #6 (Variant)"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-11-22T00:00:00-0500"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-10-23T00:00:00-0400"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-11-08T00:00:00-0500"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-11-08T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/e0/654bb01368c0e",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/e0/654bb01368c0e",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 4,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108988/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13750",
+            "name": "Phillip Kennedy Johnson",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4989",
+            "name": "Nic Klein",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+            "name": "Matthew Wilson",
+            "role": "colorist"
+        }
+        ],
+        "returned": 4
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108988/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108988/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239096",
+            "name": "cover from Hulk (2023) #6",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239097",
+            "name": "story from Hulk (2023) #6",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108988/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 104776,
+        "digitalId": 63882,
+        "title": "Incredible Hulk Epic Collection: The Curing Of Dr. Banner (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Collects Incredible Hulk (1968) #201-226, Incredible Hulk Annual (1968) #6, material from Marvel Treasury Edition (1974) #17.  The only thing bigger than the Hulk's anger is his love for Jarella! So when he's shrunk down and able to return to her microscopic world of K'ai, our big green buddy couldn't be happier. But a return to Earth leads to tragedy - and, well, that's when things are going to get smashed. With the Hulk heartbroken and enraged, nothing can stop his rampage - not S.H.I.E.L.D., not the Defenders, not even the might of the Absorbing Man! Only when Doc Samson arrives to delve into the mind of both man and monster can the world hope to cure Bruce Banner. Also featuring the introduction of Doctor Druid; a classic Hulk story by Jim Starlin; and an Annual featuring the newest creation of the Enclave, the utopian scientists who gave rise to Adam Warlock!",
+        "modified": "2023-10-25T17:25:52-0400",
+        "isbn": "978-1-302-94879-5",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 948795 54999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 528,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/104776",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/104776/incredible_hulk_epic_collection_the_curing_of_dr_banner_trade_paperback?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Incredible-Hulk-Epic-Collection-The-Curing-Of-Dr-Banner-0/digital-comic/63882?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=63882&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/36237",
+        "name": "Incredible Hulk Epic Collection: The Curing Of Dr. Banner (2023)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-10-25T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-08-14T00:00:00-0400"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-10-25T00:00:00-0400"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-10-25T00:00:00-0400"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 49.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/70/65398797e2054",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/70/65398797e2054",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/104776/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+            "name": "Jeff Youngquist",
+            "role": "editor"
+        }
+        ],
+        "returned": 1
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/104776/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/104776/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/230659",
+            "name": "cover from INCREDIBLE HULK EPIC COLLECTION: THE CURING OF DR. BANNER TPB (2023) #1",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/230660",
+            "name": "story from INCREDIBLE HULK EPIC COLLECTION: THE CURING OF DR. BANNER TPB (2023) #1",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/104776/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 108987,
+        "digitalId": 63832,
+        "title": "Incredible Hulk (2023) #5",
+        "issueNumber": 5,
+        "variantDescription": "",
+        "description": "THE SWAMP SIREN REVEALED! Hulk tracks down the beauty that has been luring man and monster alike to their dooms! An epic brawl breaks out between the Jade Giant, Man-Thing and the true face of the Swamp Siren… …but even the Jade Giant is not immune to her song! Plus… A backup story featuring a surprise guest character to honor Latin and Latinx characters and creators!",
+        "modified": "2023-11-21T09:12:11-0500",
+        "isbn": "",
+        "upc": "75960620663600511",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/108987",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/108987/incredible_hulk_2023_5?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Incredible-Hulk-5/digital-comic/63832?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=63832&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/37422",
+        "name": "Incredible Hulk (2023 - Present)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-10-18T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-09-18T00:00:00-0400"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-10-03T09:50:00-0400"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-10-03T09:50:00-0400"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 4.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/b0/65298f4d611cc",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/b0/65298f4d611cc",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 8,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108987/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13590",
+            "name": "Vita Ayala",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13750",
+            "name": "Phillip Kennedy Johnson",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/735",
+            "name": "Travel Foreman",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13254",
+            "name": "Alitha E. Martinez",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4989",
+            "name": "Nic Klein",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+            "name": "Vc Travis Lanham",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+            "name": "Wilson Moss",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+            "name": "Matthew Wilson",
+            "role": "colorist"
+        }
+        ],
+        "returned": 8
+    },
+        "characters": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108987/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009420",
+            "name": "Man-Thing"
+        }
+        ],
+        "returned": 2
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108987/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239094",
+            "name": "cover from Hulk (2023) #5",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239095",
+            "name": "story from Hulk (2023) #5",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108987/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 109935,
+        "digitalId": 63818,
+        "title": "Crypt Of Shadows (2023) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "REOPENING THE CRYPT! Once more, as All Hallows' Eve draws nigh, the dust-covered slab that seals shut the crypt, blocking out the sun and casting it forever in shadow, has creaked open to let the darkness loose to prey on the Marvel Universe! Be they mercenary or mage, guided by law or by rage, our heroes will face their terror, and they'd best pray their spines are sturdy enough for the job…or the crypt they find may well be their own!",
+        "modified": "2024-01-22T09:06:19-0500",
+        "isbn": "",
+        "upc": "75960620699500111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/109935",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/109935/crypt_of_shadows_2023_1?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Crypt-Of-Shadows-1/digital-comic/63818?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=63818&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/38737",
+        "name": "Crypt Of Shadows (2023)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-10-18T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-09-18T00:00:00-0400"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-10-03T09:50:00-0400"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-10-03T09:50:00-0400"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 4.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/80/65298f5310820",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/80/65298f5310820",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 19,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/109935/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11482",
+            "name": "Jesus Aburtov",
+            "role": "colorist (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/465",
+            "name": "Paul Azaceta",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13215",
+            "name": "Rain Beredo",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13675",
+            "name": "Neeraj Menon",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1405",
+            "name": "Matt Milla",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13422",
+            "name": "Michael Wiggam",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9224",
+            "name": "Paul Davidson",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13712",
+            "name": "Alex Lins",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14587",
+            "name": "Devmalya Pramanik",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14592",
+            "name": "Jonas Trindade",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12174",
+            "name": "Al Ewing",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14568",
+            "name": "Sarah Gailey",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14104",
+            "name": "Steve Orlando",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14071",
+            "name": "Cavan Scott",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11354",
+            "name": "Declan Shalvey",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+            "name": "Vc Travis Lanham",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14444",
+            "name": "Eder Messias",
+            "role": "penciler"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14311",
+            "name": "Jordan White",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/758",
+            "name": "Leinil Francis Yu",
+            "role": "penciler (cover)"
+        }
+        ],
+        "returned": 19
+    },
+        "characters": {
+        "available": 7,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/109935/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009262",
+            "name": "Daredevil"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+            "name": "Deadpool"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011036",
+            "name": "Living Mummy"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009420",
+            "name": "Man-Thing"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009562",
+            "name": "Scarlet Witch"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010765",
+            "name": "Werewolf By Night"
+        }
+        ],
+        "returned": 7
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/109935/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/240998",
+            "name": "cover #1",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/240999",
+            "name": "story #1",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/109935/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 105931,
+        "digitalId": 0,
+        "title": "Hulk: Maestro By Peter David Omnibus (Hardcover)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Collects HULK: FUTURE IMPERFECT #1-2, INCREDIBLE HULK (1968) #460-461, CAPTAIN MARVEL (1999) #27-30, SPIDER-MAN 2099 (2014) #9-10, FUTURE IMPERFECT #1-5, MAESTRO #1-5, MAESTRO: WAR AND PAX #1-5, MAESTRO: WORLD WAR M #1-5, EXILES (2001) #79-80, ABOMINATIONS #1-3, and material from HULK: BROKEN WORLDS #1 and SECRET WARS: BATTLEWORLD #4. In an imperfect future, the world finds itself in the gamma-powered grip of the Maestro - the monster once known as the Hulk! Experience the full story of the strongest tyrant there is - beginning with the all-time-classic saga from Peter David and George Pérez pitting a time-torn Hulk against his evil future self! Then the Maestro smashes Genis-Vell, son of the Kree Captain Marvel, and the Spider-Man of 2099! On the Battleworld of SECRET WARS, the Maestro rules the realm called Dystopia! And in a titanic trilogy, learn exactly what twisted the Hulk into the despot he would become - and what horrible deeds he committed on the path to conquest!",
+        "modified": "2023-09-19T11:10:34-0400",
+        "isbn": "978-1-302-95113-9",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 951139 59999",
+        "issn": "",
+        "format": "Hardcover",
+        "pageCount": 960,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/105931",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/105931/hulk_maestro_by_peter_david_omnibus_hardcover?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/36632",
+        "name": "Hulk: Maestro By Peter David Omnibus (2023)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-09-20T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2022-12-19T00:00:00-0500"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 125
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/10/6509b8e2ddf94",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/10/6509b8e2ddf94",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 59,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/105931/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11482",
+            "name": "Jesus Aburtov",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1909",
+            "name": "Steve Buccellato",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/529",
+            "name": "June Chung",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13021",
+            "name": "David Curiel",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13357",
+            "name": "Avalon Brian Haberlin",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/507",
+            "name": "Matt Hollingsworth",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/426",
+            "name": "Jason Keith",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/498",
+            "name": "Greg Adams",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13510",
+            "name": "Sebastian Cabrol",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/440",
+            "name": "Mark Farmer",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/365",
+            "name": "Pasqual Ferry",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/3633",
+            "name": "Chris Batista",
+            "role": "penciler"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/2975",
+            "name": "David Brewer",
+            "role": "penciler"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5015",
+            "name": "Rodney Buchemi",
+            "role": "penciler"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13834",
+            "name": "Chris Cross",
+            "role": "penciler"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13186",
+            "name": "Kelley Jones",
+            "role": "penciler"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/241",
+            "name": "Dale Keown",
+            "role": "penciler"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/352",
+            "name": "Tony Bedard",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/121",
+            "name": "Peter David",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+            "name": "Vc Joe Caramagna",
+            "role": "letterer"
+        }
+        ],
+        "returned": 20
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/105931/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/105931/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/232973",
+            "name": "cover from MAESTRO BY PETER DAVID OMNIBUS HC PEREZ COVER (2023) #1",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/232974",
+            "name": "story from MAESTRO BY PETER DAVID OMNIBUS HC PEREZ COVER (2023) #1",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/105931/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 102293,
+        "digitalId": 63700,
+        "title": "Wolverine (2020) #37",
+        "issueNumber": 37,
+        "variantDescription": "",
+        "description": "HULK AND WOLVERINE - TOGETHER AGAIN in LAST MUTANT STANDING Part 1! LOGAN's grand tour of the Marvel Universe begins here in the only way it could - face-to-face once more with the INCREDIBLE HULK! But will they meet as friends or enemies? And WOLVERINE hunts down his remaining THREE CLONES from BEAST's WEAPONS OF X, for in the end, there can be only one Logan! The perfect jumping on point as Wolverine's new status quo in the FALL OF X kicks into high gear!",
+        "modified": "2023-09-06T17:09:38-0400",
+        "isbn": "",
+        "upc": "75960609661903711",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/102293",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/102293/wolverine_2020_37?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-37/digital-comic/63700?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=63700&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/28051",
+        "name": "Wolverine (2020 - Present)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-09-20T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-08-21T00:00:00-0400"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-09-07T10:31:00-0400"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-09-07T10:31:00-0400"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 4.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/60/652990617f639",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/60/652990617f639",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 7,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/102293/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+            "name": "Mark Basso",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+            "name": "Frank D'ARMATA",
+            "role": "colorist"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13250",
+            "name": "Romulo Fajardo Jr.",
+            "role": "colorist (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13614",
+            "name": "Benjamin Percy",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10344",
+            "name": "Juan Jose Ryp",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/758",
+            "name": "Leinil Francis Yu",
+            "role": "penciler (cover)"
+        }
+        ],
+        "returned": 7
+    },
+        "characters": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/102293/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+            "name": "Wolverine"
+        }
+        ],
+        "returned": 2
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/102293/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/225687",
+            "name": "cover from Wolverine (2020) #37",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/225688",
+            "name": "story from Wolverine (2020) #37",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/102293/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 108986,
+        "digitalId": 63665,
+        "title": "Incredible Hulk (2023) #4",
+        "issueNumber": 4,
+        "variantDescription": "",
+        "description": "THE GREEN GIANTS THROW DOWN! HULK VS. MAN-THING! Trouble awaits in the foggy bogs when a sultry seductress of the swamp lures unsuspecting victims into her trap! What is this mysterious creature's connection to the Swamp Walker himself? It's rage versus empathy as these two green goliaths come to blows - and even the Hulk isn't immune to Man-Thing's deadly acid! Guest artist Travel Foreman joins Phillip Kennedy Johnson for a twisted two-part tale!",
+        "modified": "2023-08-29T16:10:32-0400",
+        "isbn": "",
+        "upc": "75960620663600411",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/108986",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/108986/incredible_hulk_2023_4?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Incredible-Hulk-4/digital-comic/63665?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=63665&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/37422",
+        "name": "Incredible Hulk (2023 - Present)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/111841",
+            "name": "Incredible Hulk (2023) #4 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/111842",
+            "name": "Incredible Hulk (2023) #4 (Variant)"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-09-13T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-08-14T00:00:00-0400"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-08-30T09:35:00-0400"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-08-30T09:35:00-0400"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/50/652990d79cd37",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/50/652990d79cd37",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 6,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108986/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/735",
+            "name": "Travel Foreman",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13750",
+            "name": "Phillip Kennedy Johnson",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4989",
+            "name": "Nic Klein",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+            "name": "Wilson Moss",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+            "name": "Matthew Wilson",
+            "role": "colorist"
+        }
+        ],
+        "returned": 6
+    },
+        "characters": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108986/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009420",
+            "name": "Man-Thing"
+        }
+        ],
+        "returned": 2
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108986/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239092",
+            "name": "cover from Hulk (2023) #4",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239093",
+            "name": "story from Hulk (2023) #4",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108986/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 104901,
+        "digitalId": 0,
+        "title": "Mighty Marvel Masterworks: The Incredible Hulk Vol. 3 - Less Than Monster, More Than Man (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Collects Material from Tales to Astonish (1959) #75-91.  When a time-travel device throws the Hulk into the distant future, he does what Hulks always do: smash! Past, present or future, the Hulk will fight. But when the green goliath returns to the present, he discovers that Rick Jones - thinking he was dead - has revealed to the world that Bruce Banner is the Hulk! As if that wasn't trouble enough, Hercules hits the scene (and the Hulk), while the Secret Empire weaves nefarious plans of domination. The horror of the Humanoid comes next, but it's all just a prelude to the debut of the Abomination! Dr. Emil Blonsky is transformed into a gamma-powered monster equal to the Hulk's might, and their iconic battles will shake the Marvel Universe forevermore!",
+        "modified": "2023-09-05T11:37:47-0400",
+        "isbn": "978-1-302-94903-7",
+        "upc": "",
+        "diamondCode": "",
+        "ean": "9781302 949037 51599",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 192,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/104901",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/collection/104901/mighty_marvel_masterworks_the_incredible_hulk_vol_3_-_less_than_monster_more_than_man_trade_paperback?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/36287",
+        "name": "Mighty Marvel Masterworks: The Incredible Hulk Vol. 3 - Less Than Monster, More Than Man (2023)"
+    },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-09-06T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-06-26T00:00:00-0400"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 15.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/70/64f74afa7a2c6",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/70/64f74afa7a2c6",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 13,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/104901/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1089",
+            "name": "Sol Brodsky",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1295",
+            "name": "Mike Esposito",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/297",
+            "name": "Bill Everett",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/148",
+            "name": "Gil Kane",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13272",
+            "name": "John Romita Sr.",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1529",
+            "name": "John Tartaglione",
+            "role": "inker"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1612",
+            "name": "John Buscema",
+            "role": "penciler"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/196",
+            "name": "Jack Kirby",
+            "role": "penciler"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/30",
+            "name": "Stan Lee",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12825",
+            "name": "Leonardo Romero",
+            "role": "colorist (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1553",
+            "name": "Sam Rosen",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13093",
+            "name": "Art Simek",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+            "name": "Jeff Youngquist",
+            "role": "editor"
+        }
+        ],
+        "returned": 13
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/104901/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/104901/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/230910",
+            "name": "cover from MIGHTY MARVEL MASTERWORKS: THE INCREDIBLE HULK VOL. 3 - LESS THAN MONSTER, MORE THAN MAN GN-TPB MICHAEL CHO COVER (20",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/230911",
+            "name": "story from MIGHTY MARVEL MASTERWORKS: THE INCREDIBLE HULK VOL. 3 - LESS THAN MONSTER, MORE THAN MAN GN-TPB MICHAEL CHO COVER (20",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/104901/events",
+        "items": [],
+        "returned": 0
+    }
+    },
+    {
+        "id": 108985,
+        "digitalId": 63161,
+        "title": "Incredible Hulk (2023) #3",
+        "issueNumber": 3,
+        "variantDescription": "",
+        "description": "Hulk faces undead horror as \"The Age of Monsters\" continues! Hulk investigates the creature being worshipped in an abandoned mining town…and finds a primordial horror as large as the mine itself awaiting him, using the town's residents as human shields. From the darkest corners of the minds of Phillip Kennedy Johnson and Nic Klein, the first chapter of \"The Age of Monsters\" culminates in a battle between the Hulk and a monster unlike any he has faced before - but that's only the tip of the iceberg!",
+        "modified": "2023-08-22T18:04:04-0400",
+        "isbn": "",
+        "upc": "75960620663600311",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/108985",
+        "urls": [
+        {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/108985/incredible_hulk_2023_3?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Incredible-Hulk-3/digital-comic/63161?utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        },
+        {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=63161&utm_campaign=apiRef&utm_source=4837bc10899562b5f7ebc30e1656c4b9"
+        }
+        ],
+        "series": {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/37422",
+        "name": "Incredible Hulk (2023 - Present)"
+    },
+        "variants": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/110243",
+            "name": "Incredible Hulk (2023) #3 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/110323",
+            "name": "Incredible Hulk (2023) #3 (Variant)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/110324",
+            "name": "Incredible Hulk (2023) #3 (Variant)"
+        }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2023-08-30T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2023-07-31T00:00:00-0400"
+        },
+        {
+            "type": "unlimitedDate",
+            "date": "2023-08-29T09:38:00-0400"
+        },
+        {
+            "type": "digitalPurchaseDate",
+            "date": "2023-08-29T09:38:00-0400"
+        }
+        ],
+        "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+        ],
+        "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/30/652991766f5bb",
+        "extension": "jpg"
+    },
+        "images": [
+        {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/30/652991766f5bb",
+            "extension": "jpg"
+        }
+        ],
+        "creators": {
+        "available": 5,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108985/creators",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13750",
+            "name": "Phillip Kennedy Johnson",
+            "role": "writer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4989",
+            "name": "Nic Klein",
+            "role": "penciler (cover)"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+            "name": "Wilson Moss",
+            "role": "editor"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+            "name": "Vc Cory Petit",
+            "role": "letterer"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+            "name": "Matthew Wilson",
+            "role": "colorist"
+        }
+        ],
+        "returned": 5
+    },
+        "characters": {
+        "available": 1,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108985/characters",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+            "name": "Hulk"
+        }
+        ],
+        "returned": 1
+    },
+        "stories": {
+        "available": 2,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108985/stories",
+        "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239090",
+            "name": "cover from Hulk (2023) #3",
+            "type": "cover"
+        },
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/239091",
+            "name": "story from Hulk (2023) #3",
+            "type": "interiorStory"
+        }
+        ],
+        "returned": 2
+    },
+        "events": {
+        "available": 0,
+        "collectionURI": "http://gateway.marvel.com/v1/public/comics/108985/events",
+        "items": [],
+        "returned": 0
+    }
+    }
+    ]
+}
+}
+
