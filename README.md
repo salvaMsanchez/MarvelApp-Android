@@ -159,14 +159,14 @@ Se implementó la ordenación alfabética de los personajes desde el `Repository
 <a name="shimmer"></a>
 #### Efecto *Shimmer* para carga de elementos
 
-Quería añadir un efecto que sea atractivo al usuario y que, al mismo tiempo, esté habituado para cuando elementos estén en carga desde Remoto, desde base de datos local o que simplemente estén cargando sus recursos multimedia. Es por ello que me puse a investigar y elegí implementar el llamado efecto Shimmer gracias al vídeo [How to Create a Shimmer Loading Effect in Jetpack Compose (WITHOUT Library!)](https://www.youtube.com/watch?v=NyO99OJPPec) del desarrollador y youtuber Philipp Lackner.
+Quería añadir un efecto que fuera atractivo al usuario y que, al mismo tiempo, le resultase familiar para cuando ciertos datos estén en carga desde remoto, local o que simplemente estén cargando sus recursos multimedia. Es por ello que me puse a investigar y elegí implementar el llamado efecto Shimmer gracias al vídeo [How to Create a Shimmer Loading Effect in Jetpack Compose (WITHOUT Library!)](https://www.youtube.com/watch?v=NyO99OJPPec) del desarrollador y youtuber Philipp Lackner.
 
 <a name="backHandler"></a>
 #### Gestión de los datos locales al abandonar la aplicación con `BackHandler`
 
 Una de mis preocupaciones fue la de ir acumulando memoria cada vez que se cargaban más y más personajes en local, persistiendo demasiados datos que, llegado el momento, pudieran afectar al rendimiento de nuestra aplicación y, por ende, la experiencia de usuario. De esta forma, pensé en implementar una limpieza de datos de local cada vez que el usuario abandonara la aplicación realizando el tradicional `onBackPressed`, el cual se gestiona de manera más fácil en Jetpack Compose con el BackHandler. Aquí dejo un [vídeo](https://www.youtube.com/watch?v=FPQ50Dg_OvA) donde poder ver su uso.
 
-Así, pude gestionar que al salir de esta forma, se mostrase un `Dialog` y que al confirmar la salida, se eliminasen todos los personajes de BBDD excepto los 20 primeros.
+Así, pude gestionar que, al salir de esta forma, se mostrase un `Dialog` y que, al confirmar la salida, se eliminasen todos los personajes de BBDD excepto los 20 primeros.
 
 Es evidente que también se eliminarán los favoritos que estuvieran guardados entre esos personajes eliminados, cosa que se solucionaría fácilmente almacenándolos de forma separada al resto, pero para mí el objetivo era aprender a gestionar el `onBackPressed` y a atender a la eficiencia de la memoria al largo plazo del uso de la aplicación.
 
